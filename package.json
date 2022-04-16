@@ -1,0 +1,17 @@
+{
+  "name": "typora-hans-theme",
+  "version": "1.0.0",
+  "description": "Typora Han Theme for Markdown Renderer",
+  "main": "index.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vagusX/typora-hans-theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vagusX/typora-hans-theme/issues"
+  },
+  "homepage": "https://github.com/vagusX/typora-hans-theme#readme"
+}

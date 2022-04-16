@@ -1,0 +1,124 @@
+#markdown {
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+}
+
+#markdown a {
+  border-bottom: 1px solid #555;
+}
+
+#markdown a:hover {
+  border-bottom-color: #555;
+  color: #555;
+  text-decoration: none;
+}
+
+#markdown strong {
+  font-weight: bolder;
+  color: #000;
+}
+
+/* 保证块/段落之间的空白隔行 */
+#markdown p,
+#markdown ul,
+#markdown ol,
+#markdown dl,
+#markdown form,
+#markdown hr,
+#markdown table,
+#markdown figure,
+#markdown blockquote {
+  margin-bottom: 1.2em;
+}
+
+/* 标题应该更贴紧内容，并与其他块区分，margin 值要相应做优化 */
+#markdown h1,
+#markdown h2,
+#markdown h3,
+#markdown h4,
+#markdown h5,
+#markdown h6 {
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+  line-height: 1.35;
+  color: #000;
+}
+
+#markdown h1 {
+  font-size: 2.4em;
+  padding-bottom: 1em;
+  border-bottom: 3px double #eee;
+}
+
+#markdown h2 {
+  font-size: 1.8em;
+}
+
+#markdown h3 {
+  font-size: 1.6em;
+}
+
+#markdown h4 {
+  font-size: 1.4em;
+}
+
+#markdown h5,
+#markdown h6 {
+  font-size: 1.2em;
+}
+
+/* 在文章中，应该还原 ul 和 ol 的样式 */
+#markdown ul {
+  margin-left: 1.3em;
+  list-style: disc;
+}
+
+#markdown ol {
+  list-style: decimal;
+  margin-left: 1.9em;
+}
+
+#markdown li ul,
+#markdown li ol,
+#markdown ul ul,
+#markdown ul ol,
+#markdown ol ul,
+#markdown ol ol {
+  margin-bottom: 0.8em;
+  margin-left: 2em;
+}
+
+#markdown li ul,
+#markdown ul ul,
+#markdown ol ul {
+  list-style: circle;
+}
+
+#markdown table th,
+#markdown table td {
+  border: 1px solid #ddd;
+  padding: 0.5em 1em;
+  color: #666;
+}
+
+#markdown table th {
+  background: #fbfbfb;
+}
+
+#markdown table thead th {
+  background: #f1f1f1;
+}
+
+#markdown table caption {
+  border-bottom: none;
+}
+
+#markdown em {
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+/* Responsive images */
+#markdown img {
+  max-width: 100%;
+}
